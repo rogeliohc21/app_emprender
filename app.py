@@ -9,7 +9,7 @@ st.set_page_config(layout='wide')
 resultado = None
 
 # Mostrar imagen en la parte superior
-st.image('/Users/rogeliohidalgo/Documents/visual_code/app/media/png-transparent-building-cartoon-facade-building-service-condominium-apartment-thumbnail.png', use_container_width=True)
+st.image('media/png-transparent-building-cartoon-facade-building-service-condominium-apartment-thumbnail.png', use_container_width=True)
 
 # Insertar un espacio vertical de 60px
 st.markdown(f'<div style="margin-top: 60px;"></div>', unsafe_allow_html=True)
